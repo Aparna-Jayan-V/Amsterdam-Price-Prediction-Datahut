@@ -15,11 +15,8 @@ from sklearn.metrics import r2_score
 from sklearn.linear_model import Lasso, Ridge
 from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import mean_squared_error
-from sklearn.metrics import mean_absolute_error
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import GridSearchCV
-from sklearn.linear_model import LinearRegression
-from sklearn.model_selection import RepeatedKFold
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.model_selection import RandomizedSearchCV
